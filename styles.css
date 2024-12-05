@@ -1,0 +1,70 @@
+/* بنیادی سی ایس ایس */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #planet-search {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    width: 300px;
+  }
+  
+  #planets-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .planet {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .planet:hover {
+    transform: rotate(15deg);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #planet-details {
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f4c430;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  

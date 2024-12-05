@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solaris - Vårt Solsystem</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Solaris - Vårt Solsystem</h1>
+    <input type="text" id="planet-search" placeholder="Sök efter en planet..." />
+  </header>
+
+  <div id="planets-container"></div>
+
+  <div id="planet-details" class="hidden">
+    <button id="close-details">Stäng</button>
+    <h2 id="planet-name"></h2>
+    <p id="planet-desc"></p>
+    <p><strong>Månar:</strong> <span id="planet-moons"></span></p>
+    <p><strong>Dagstemperatur:</strong> <span id="planet-day-temp"></span> °C</p>
+    <p><strong>Natt-temperatur:</strong> <span id="planet-night-temp"></span> °C</p>
+    <p><strong>Avstånd:</strong> <span id="planet-distance"></span> km</p>
+    <p><strong>Orbitalperiod:</strong> <span id="planet-orbital-period"></span> dagar</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
